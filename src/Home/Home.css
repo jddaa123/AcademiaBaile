@@ -1,0 +1,53 @@
+
+.banner {
+    display: flex;
+    height: 973px; 
+    
+  }
+
+
+  
+  .black-bg {
+    background-color: black;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    
+  }
+  
+  .imagen {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center; 
+  }
+  
+  .imagen img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  
+ .menu{
+    background-color: transparent !important;
+ }
+
+ .banner h2{
+    font-weight: bold;
+    font-size: 100px;
+ }
+
+ .container {
+    text-align: center; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+.banner p{
+    font-size: 30px;
+}
+
+
+  
