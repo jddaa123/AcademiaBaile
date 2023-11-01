@@ -75,24 +75,20 @@ export function Home() {
         </nav>
       </header>
 
-      <div className="banner">
-        <div className="black-bg">
-          <div className="b text-white">
-            <h3>A TU ALCANCE</h3>
-            <h2>
-              PROYECTO <br></br>ACADEMIA <br></br> BAILE
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a enim
-              nec nisl ullamcorper eleifend. Praesent risus leo, fringilla et
-              ipsum.
-            </p>
-            <button className="btn btn-outline-light">UNETE A NOSOTROS</button>
-          </div>
+      <div className="banner col-6 fw-bold position-relative">
+        <img src="/src/assets/img/nnegro.jpg" alt="fondo negro" />
+        <div className="textoBanner">
+          <p className="alcance">A TU ALCANCE</p>
+          <br />
+          <h1>PROYECTO ACADEMIA BAILE</h1> <br />
+          <br />
+          <p className="lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a enim
+            nec nisl ullamcorper eleifend. Praesent risus leo, fringilla et
+            ipsum.
+          </p>
         </div>
-        <div className="imagen">
-          <img src="/src/assets/img/bailarin.png" alt="bailarin" />
-        </div>
+        <img src="/src/assets/img/bailarin.png" alt="bailarin" />
       </div>
     </>
   );
