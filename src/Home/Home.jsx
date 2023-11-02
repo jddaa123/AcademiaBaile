@@ -1,75 +1,75 @@
 import "./Home.css";
+import { Cartas } from "../cartas/cartas";
 export function Home() {
   return (
     <>
       <header>
-        <nav className="navbar navbar-expand-lg navbar-dark menu fixed-top">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+        <nav class="navbar navbar-custom navbar-expand-lg mwnu navbar-dark fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
               URBAN STYLE
             </a>
             <button
-              className="navbar-toggler"
+              class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon" />
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul className="navbar-nav">
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    INICIO
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    Home
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    CURSOS
+                <li class="nav-item">
+                  <a className="nav-link " href="#">
+                    Link
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    EVENTOS
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    CONTACTO
-                  </a>
-                </li>
-                <li className="nav-item dropdown">
+                <li class="nav-item dropdown">
                   <a
-                    className="nav-link dropdown-toggle"
+                    class="nav-link dropdown-toggle"
                     href="#"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Dropdown link
+                    Dropdown
                   </a>
-                  <ul className="dropdown-menu">
+                  <ul class="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a class="dropdown-item" href="#">
                         Action
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a class="dropdown-item" href="#">
                         Another action
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
                         Something else here
                       </a>
                     </li>
                   </ul>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">
+                    Disabled
+                  </a>
+                </li>
               </ul>
+              
             </div>
           </div>
         </nav>
@@ -77,7 +77,7 @@ export function Home() {
 
       <div className="banner col-6 fw-bold position-relative">
         <img src="/src/assets/img/nnegro.jpg" alt="fondo negro" />
-        <div className="textoBanner">
+        <div className="textoBanner container-fluid text-start">
           <p className="alcance">A TU ALCANCE</p>
           <br />
           <h1>PROYECTO ACADEMIA BAILE</h1> <br />
@@ -87,9 +87,15 @@ export function Home() {
             nec nisl ullamcorper eleifend. Praesent risus leo, fringilla et
             ipsum.
           </p>
+          <button type="button" className="btn btn-primary mt-5 w-50">
+                  UNETE A NOSOTROS
+                </button>
         </div>
-        <img src="/src/assets/img/bailarin.png" alt="bailarin" />
+        <img src="/src/assets/img/bailarin.png" alt="bailarin img" />
       </div>
+
+      <Cartas></Cartas>
+
     </>
   );
 }
