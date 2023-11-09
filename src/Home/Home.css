@@ -1,36 +1,55 @@
-
 .banner {
-    display: flex;
-    height: 977px; 
-    
-  }
+  display: flex;
+  height: 977px; 
+  
+}
 
- .menu{
-    background-color: transparent !important;
- }
+.menu{
+  background-color: transparent !important;
+}
 
- .textoBanner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+
+.tarjeta{
+  border-radius: 70px;
+}
+
+
+.alcance {
+  font-size:30px ;
   color: white;
 }
 
-  .tarjeta{
-    border-radius: 70px;
-  }
+.particulas h1{
+  font-size: 100px;
+  color: white;
+
+}
 
 
-  .alcance {
-    font-size:30px ;
+
+.lorem{
+  font-size:20px ;
+  color: white;
+}
+
+
+  .video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: contain;
+
   }
 
-  .textoBanner h1{
-    font-size: 100px;
-  }
+.bailarin {
+  float: right;
+}
 
-  .lorem{
-    font-size:20px ;
-  }
+.purple-button {
+  background-color:  #6f42c1;;
+  color: #6f42c1;;
+}
+

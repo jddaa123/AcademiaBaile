@@ -10,9 +10,9 @@ export function Footer() {
               <h5>Todos los derechos reservados &copy;</h5>
             </div>
             <div className="col-6 align-self-center">
-              <i class="bi bi-instagram p-2 fs-4"></i>
-              <i class="bi bi-tiktok p-2 fs-4"></i>
-              <i class="bi bi-whatsapp p-2 fs-4"></i>
+              <i className="bi bi-instagram p-2 fs-4"></i>
+              <i className="bi bi-tiktok p-2 fs-4"></i>
+              <i className="bi bi-whatsapp p-2 fs-4"></i>
             </div>
           </div>
         </div>

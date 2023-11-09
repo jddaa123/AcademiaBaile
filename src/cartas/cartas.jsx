@@ -1,6 +1,6 @@
 export function Cartas() {
     const containerStyle = {
-      background: "black",
+    
       color: "white",
     };
   
@@ -17,7 +17,7 @@ export function Cartas() {
                   className="img-fluid rounded mt-4"
                   alt="Baile"
                 />
-                <button type="button" className="btn btn-primary mt-4 w-50">
+                <button type="button" className="btn purple-button t mt-4 w-50 ">
                  BOLETAS!
                 </button>
               </div>
@@ -40,7 +40,7 @@ export function Cartas() {
                   alt="apasionado"
                 />
   
-                <button type="button" className="btn btn-primary mt-4 w-50">
+                <button type="button" className="btn purple-button  mt-4 w-50 ">
                   MAS DE NOSTROS!
                 </button>
               </div>
