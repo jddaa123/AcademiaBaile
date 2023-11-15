@@ -99,7 +99,7 @@ export function Header1() {
                 enim nec nisl ullamcorper eleifend. Praesent risus leo,
                 fringilla et ipsum.
               </p>
-              <button type="button" className="btn btn-primary mt-5 w-50">
+              <button type="button" className="btn btn-light mt-5 w-50 ">
                 UNETE A NOSOTROS
               </button>
             </div>
